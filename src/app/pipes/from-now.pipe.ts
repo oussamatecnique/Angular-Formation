@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
+import {} from 'date-fns'
 @Pipe({
   name: 'fromNow'
 })
