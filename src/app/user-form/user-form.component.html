@@ -1,0 +1,8 @@
+<form #form="ngForm">
+  <div>First name : <input name="firstName" type="text" required [(ngModel)]="firstName" #inputFn="ngModel" />
+  {{inputFn.Valid}}
+  </div>
+  <div>Last Name : <input name="lastName" type="text" required [(ngModel)]="lastName"></div>
+  <div>Age : <input name="number" type="number"required [(ngModel)]="age"></div>
+  <button [disabled]="form.invalid" type="button" required (click)="onSubmit(form.invalid)">Submit</button>
+</form>

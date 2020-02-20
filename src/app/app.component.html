@@ -1,0 +1,7 @@
+<app-user-form (submit)="onAddUser($event)"></app-user-form>
+
+<app-alert *ngIf="hasAlert" [type]="hasAlert" [message]="alertMessage" (close)="onAlertClose()"></app-alert>
+
+<app-user-list [users]="users"></app-user-list>
+
+{{ 'hello' | appUpperCase:'fr' }}

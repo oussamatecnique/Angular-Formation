@@ -1,0 +1,6 @@
+div{
+  display: inline-block;
+  min-width: 250px;
+  border: 1px solid silver;
+  margin: 8px;
+}

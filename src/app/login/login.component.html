@@ -1,0 +1,8 @@
+<form>
+  Login <input type="text" #login/>
+  <br />
+  Password <input type="password" #password/>
+
+  <br />
+  <button type="button" (click)="onSubmit(login.value, password.value)">Submit</button>
+</form>

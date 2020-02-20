@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+  font-size: 24px;
+  color: green;
+}
+
+.danger {
+  color: red;
+}
